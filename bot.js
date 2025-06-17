@@ -1,8 +1,8 @@
 const { Client, GatewayIntentBits, EmbedBuilder, PermissionsBitField, SlashCommandBuilder } = require('discord.js');
-require('dotenv').config();
 
 const ALLOWED_SERVER_ID = '1343651126456614992';
 const ANNOUNCEMENT_CHANNEL_ID = '1384204840196112454';
+const BOT_TOKEN = 'MTIyNDU5MzM5NTcyNTM2OTM5NA.GC91Ri.exJ45uwVGsyHKgZes1igFfJFL5CuPidNEgyfik'; // ضع التوكن الجديد هنا
 
 const client = new Client({
     intents: [
@@ -495,5 +495,5 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-client.login(process.env.DISCORD_TOKEN); 
+client.login(BOT_TOKEN); 
 
