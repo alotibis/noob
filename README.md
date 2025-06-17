@@ -71,7 +71,7 @@ npm start
 - يجب إنشاء ملف `.env` يحتوي على المتغيرات التالية:
 
 ```
-DISCORD_TOKEN=ضع_توكن_البوت_هنا
+DISCORD_TOKEN=MTIyNDU5MzM5NTcyNTM2OTM5NA.GC91Ri.exJ45uwVGsyHKgZes1igFfJFL5CuPidNEgyfik
 ```
 
 ---
